@@ -555,5 +555,19 @@
             </dict>
         </array>
     </config-file>
+	<gap:config-file platform="ios" parent="CFBundleDocumentTypes">
+		<array>
+		<dict>
+		<key>CFBundleTypeName</key>
+		<string>XML File</string>
+		<key>CFBundleTypeRole</key>
+		<string>Editor</string>
+		<key>LSItemContentTypes</key>
+		<array>
+		<string>public.xml</string>
+		</array>
+		</dict>
+		</array>
+	</gap:config-file>
 </widget>
 
